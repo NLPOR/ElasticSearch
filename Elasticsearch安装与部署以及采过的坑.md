@@ -11,7 +11,7 @@ java -version
 来查看是否安装成功
 * 3.JDK安装完成后，就可以来下载Elasticsearch的压缩包了。（此处使用压缩包的方式安装，还有很多其他安装方式）
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.4.0.zip
-* 4.下载完成后，来对下载的压缩包进行一下校验。
+* 4.下载完成后，来对下载的压缩包进行一下校验。<p>
 sha1sum elasticsearch-5.4.0.zip
 * 5.校验通过后，就可以进行解压了
 unzip elasticsearch-5.4.0.zip
