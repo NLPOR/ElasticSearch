@@ -9,15 +9,14 @@ sudo apt-get install default-jdk
 来安装JDK环境。安装完成后，执行
 java -version
 来查看是否安装成功
-* 3.JDK安装完成后，就可以来下载Elasticsearch的压缩包了。（此处使用压缩包的方式安装，还有很多其他安装方式）
-<p>
+* 3.JDK安装完成后，就可以来下载Elasticsearch的压缩包了。（此处使用压缩包的方式安装，还有很多其他安装方式）<p>
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.4.0.zip
 * 4.下载完成后，来对下载的压缩包进行一下校验。<p>
 sha1sum elasticsearch-5.4.0.zip
 * 5.校验通过后，就可以进行解压了<p>
 unzip elasticsearch-5.4.0.zip
-* 6.解压完成，后就已经安装成功，然后进入Elasticsearch安装目录   
-<p>cd /elasticsearch-5.4.0/bin/elasticsearch启动服务。
+* 6.解压完成，后就已经安装成功，然后进入Elasticsearch安装目录<p>   
+cd /elasticsearch-5.4.0/bin/elasticsearch启动服务。
 
 # 启动过程出现的一些报错信息以及解决方案
 ## 1.不能以root身份启动的情况
